@@ -9,6 +9,7 @@ export function Repositories() {
         .then(response => response.json())
         .then(data => setRepositories(data))
     }, [])
+    
     return(
         <div className="Content">
                 { repositories.map(repository => {

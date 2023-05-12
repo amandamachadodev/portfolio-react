@@ -4,6 +4,7 @@ import { Repositories } from '../Components/Repositories/Repositories';
 function Home() {
     return(
         <div>
+            <Home />
             <Repositories />
         </div>
     );
