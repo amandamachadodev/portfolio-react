@@ -1,6 +1,6 @@
 
 .Repositories {
-    border: solid 1px black;
+    border: solid 1px white;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -14,5 +14,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    position: absolute;
     margin: 2%; 
 }
