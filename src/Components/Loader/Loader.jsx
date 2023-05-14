@@ -2,14 +2,12 @@
 import React from "react";
 import "./Loader.css";
 
-function Loader() {
+export function Loader() {
   return(
-    <div className="caixa">
-        <div className="loader">
-            <span style="--i:1"></span>
+    <div className="content">
+        <div className="venus">
+          <p>Carregando...</p>
         </div>
     </div>
   );
 }
-
-export default Loader;

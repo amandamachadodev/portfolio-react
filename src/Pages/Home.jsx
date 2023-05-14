@@ -1,10 +1,10 @@
 import React from 'react';
-import { Repositories } from '../Components/Repositories/Repositories';
+import { Loader } from '../Components/Loader/Loader';
 
 function Home() {
     return(
         <div>
-            <Repositories />
+            <Loader />
         </div>
     );
 }
