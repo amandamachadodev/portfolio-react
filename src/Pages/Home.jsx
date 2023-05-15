@@ -1,11 +1,10 @@
 import React from 'react';
-import { Repositories } from '../Components/Repositories/Repositories';
+import Header from '../Components/Header/Header';
 
 function Home() {
     return(
         <div>
-            <Home />
-            <Repositories />
+            <Header />
         </div>
     );
 }
