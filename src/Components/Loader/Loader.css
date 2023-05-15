@@ -1,0 +1,38 @@
+.venus {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 186, 58, 0.541);
+    display: flex;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 0px 40px 10px rgb(255, 209, 110);
+    animation: blink 2s infinite;
+}
+
+.venus:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    top: calc(10vh + 10px);
+    left: calc(15vw + 20px);
+  }
+
+p {
+    color: rgb(255, 254, 184);
+    font-weight: bold;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
