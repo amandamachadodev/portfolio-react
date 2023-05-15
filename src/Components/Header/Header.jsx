@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-function Header() {
+export function Header() {
   return(
     <div className="header">
       <p>Sobre mim</p>
@@ -9,5 +9,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;
