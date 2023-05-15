@@ -4,10 +4,8 @@ import "./Loader.css";
 
 export function Loader() {
   return(
-    <div className="content">
         <div className="venus">
           <p>Carregando...</p>
         </div>
-    </div>
   );
 }
