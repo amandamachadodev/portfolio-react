@@ -1,4 +1,4 @@
-import React,  { useEffect, useState }  from 'react';
+import React,  { useState }  from 'react';
 import { Galaxy } from '../Galaxy/Galaxy.jsx';
 import "../Home/Home.css";
 import { Loader } from '../../Components/Loader/Loader.jsx';
@@ -12,8 +12,6 @@ function Home() {
     de 'Desenvolvimento web full stack + ciência da computação' na Trybe para me especializar na área de Desenvolvimento de Software. Amo css + react.js e modelar dados + sql.
     Nas horas vagas eu gosto de assitir séries, cantar, tocar teclado, jogar xadrez e games variados!`
 
-    useEffect(() => {
-    }, [loader])
 
     setTimeout(() => {
         setLoader(false);
