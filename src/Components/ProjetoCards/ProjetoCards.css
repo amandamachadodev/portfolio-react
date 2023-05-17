@@ -1,0 +1,93 @@
+.projetos {
+    border: solid 1px white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 250px;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.Content {
+    position: absolute;
+    display: flex;
+    top: 10%;
+    color:rgb(255, 254, 184);
+    /* width: 101%; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+img {
+    border-radius: 2%
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(255, 254, 184);
+    font-weight: bold;
+    border: 5px rgba(128, 0, 128, 0) solid;
+    border-radius: 5%;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(255, 150, 150, 0.493);
+    width: 25%;
+    transition: 1s;
+}
+
+a:hover {
+    background-color: rgba(255, 150, 150, 0.212);
+}
+
+h4 {
+    margin: 2%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-block-end: 2%;
+}
+
+#tec {
+    color: rgba(255, 150, 150, 0.493);
+}
+
+span {
+    color: aquamarine;
+}
+
+h1 {
+    color: rgba(255, 150, 150, 0.493);
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .projetos {
+      margin-top: 30%;
+    }
+
+    .Content {
+        top: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .projetos {
+      margin-top: 15%;
+      width: 400px;
+      height: 400px;
+    }
+
+    .Content {
+        top: 10%;
+    }
+}

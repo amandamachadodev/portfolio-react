@@ -45,5 +45,3 @@ export function Galaxy() {
         </>
     );
 }
-
-// export default Galaxy;

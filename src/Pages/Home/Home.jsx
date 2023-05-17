@@ -1,5 +1,5 @@
 import React,  { useState }  from 'react';
-import { Galaxy } from '../Galaxy/Galaxy.jsx';
+import { Galaxy } from '../../Components/Background/Galaxy.jsx';
 import "../Home/Home.css";
 import { Loader } from '../../Components/Loader/Loader.jsx';
 import { Header } from '../../Components/Header/Header.jsx';
