@@ -1,5 +1,5 @@
     .star {
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
     background-color: rgb(86, 114, 113);
     box-shadow: 1px 1px 5px rgb(131, 188, 235);
