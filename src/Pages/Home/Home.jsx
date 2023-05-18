@@ -15,7 +15,7 @@ function Home() {
 
     setTimeout(() => {
         setLoader(false);
-      }, 3000);
+      }, 2000);
 
     return(
         <div className="container">
