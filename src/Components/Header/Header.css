@@ -18,5 +18,6 @@ button {
 }
 
 button:hover {
-    font-size: large;
+    font-size: medium;
+    border-bottom: 1px solid;
 }
