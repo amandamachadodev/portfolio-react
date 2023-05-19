@@ -62,8 +62,8 @@ export function ProjetoCards() {
                           <p id="tec">Tecnologias: <span>{projeto.tecnologias}</span></p>
                           <p>{projeto.descricao}</p>
                           <div className="botoes">
-                          <a href={projeto.repositorio} target="_blank" rel="noreferrer">Código</a>
-                          <a href={projeto.link} target="_blank" rel="noreferrer">Site</a>
+                          <a className="botao" href={projeto.repositorio} target="_blank" rel="noreferrer">Código</a>
+                          <a className="botao" href={projeto.link} target="_blank" rel="noreferrer">Site</a>
                           </div>
                       </div>
                     )

@@ -277,8 +277,6 @@
     left: calc(30vw + 20px);
   }
   
-  /* Add more star positions here */
-  
   @keyframes blink {
     50% {
       opacity: 1;
