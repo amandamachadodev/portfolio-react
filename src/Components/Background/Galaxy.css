@@ -296,7 +296,7 @@
     width: 230%;
     height: 230%;
     border-radius: 50%;
-    background-image: radial-gradient(rgb(3, 5, 30), #660d69);
+    background-image: radial-gradient(rgb(3, 5, 30), #0d2a69);
     background-position: center;
     filter: blur(40px);
     animation: galaxy 15s linear infinite;
