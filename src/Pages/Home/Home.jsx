@@ -3,6 +3,7 @@ import { Galaxy } from '../../Components/Background/Galaxy.jsx';
 import "../Home/Home.css";
 import { Loader } from '../../Components/Loader/Loader.jsx';
 import { Header } from '../../Components/Header/Header.jsx';
+import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Home() {
     const [loader, setLoader] = useState(true);
@@ -21,7 +22,33 @@ function Home() {
         <div className="container">
             <Header />
             <Galaxy />
-            {!loader && (<p className="sobre">{sobreMim}</p>) } 
+
+            {!loader && (
+                <div className="sobre">
+                    <h1>Hello Word!</h1>
+                    <p>{sobreMim}</p>
+                    <div className='icons'>
+                        <a clasName="icon" href="https://github.com/mandioquynha" target="_blank" rel="noreferrer"><FaGithubSquare
+                            size={35} color="rgb(255, 254, 184)"
+                            onMouseOver={({target}) => {
+                                target.style.transition="1s";
+                                target.style.color="rgba(255, 150, 150, 0.493)"}}
+                            onMouseOut={({target})=>{
+                                target.style.color="rgb(255, 254, 184)"}}
+                        />
+                        </a>
+                        <a clasName="icon" href="https://www.linkedin.com/in/amanda-garcia-machado/" target="_blank" rel="noreferrer">
+                        <FaLinkedin size={35} color="rgb(255, 254, 184)"
+                            onMouseOver={({target}) => {
+                                target.style.transition="1s";
+                                target.style.color="rgba(255, 150, 150, 0.493)"}}
+                            onMouseOut={({target})=>{
+                                target.style.color="rgb(255, 254, 184)"}}
+                        />
+                        </a>
+                        {/* <FaEnvelope size={42}/> */}
+                    </div>
+                </div>) } 
            {loader && < Loader />}
         </div>
     );

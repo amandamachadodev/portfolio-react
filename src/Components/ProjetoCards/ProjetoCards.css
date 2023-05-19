@@ -1,12 +1,15 @@
 .projetos {
-    border: solid 1px white;
-    border-radius: 5px;
+    background-color: rgba(255, 150, 150, 0.11);
+    border: 5px rgba(128, 0, 128, 0) solid;
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
     padding: 2%;
     width: 250px;
     margin-top: 10%;
     margin-right: 5%;
+    margin-block-end: 10px;
+    align-items: center;
 }
 
 .Content {
@@ -18,32 +21,38 @@
     /* align-items: center; */
     justify-content: center;
     flex-direction: column;
-
 }
 
 img {
-    border-radius: 2%
+    width: 90%;
+    box-shadow: 2px 2px 5px rgb(50, 46, 53);
+    border-radius: 5%
 }
 
 .botoes {
     display: flex;
     justify-content: space-around;
-}
+    margin-top: 2%;
+}  
 
-a {
+.botao {
     color: rgb(255, 254, 184);
     font-weight: bold;
-    border: 5px rgba(128, 0, 128, 0) solid;
+    border: 10px rgba(128, 0, 128, 0) solid;
+    background-color: rgba(255, 150, 150, 0.11);
     border-radius: 5%;
     text-align: center;
     text-decoration: none;
-    background-color: rgba(255, 150, 150, 0.493);
-    width: 25%;
     transition: 1s;
+    min-width: 55px;
 }
 
-a:hover {
-    background-color: rgba(255, 150, 150, 0.212);
+.botao:nth-child(2) {
+    margin-left: 50%;
+}
+
+.botao:hover {
+    background-color: rgba(255, 150, 150, 0.445);
 }
 
 h4 {
@@ -70,24 +79,34 @@ h1 {
     text-align: center;
 }
 
+@media (min-width: 280px) {
+    .projetos {
+      width: 200px;
+    }
+
+    .botao:nth-child(2) {
+        margin-left: 10%;
+    }
+}
+
 @media (min-width: 768px) {
     .projetos {
-      margin-top: 30%;
+      margin-top: 15%;
+      width: 400px;
+      height: 450px;
     }
 
     .Content {
-        top: 15%;
+        top: 10%;
     }
 }
 
 @media (min-width: 1024px) {
     .projetos {
-      margin-top: 15%;
-      width: 400px;
-      height: 400px;
+      margin-top: 10%;
     }
 
     .Content {
-        top: 10%;
+        top: 15%;
     }
 }
