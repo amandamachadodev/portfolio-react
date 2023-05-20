@@ -15,6 +15,13 @@ button {
     color: rgb(255, 254, 184);
     font-weight: bold;
     transition: 2s;
+    animation: mostraBotao 2s infinite;
+}
+
+@keyframes mostraBotao {
+    50% {
+        opacity: 0.5;
+    }
 }
 
 button:hover {
