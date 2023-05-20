@@ -47,18 +47,12 @@ p {
 }
 
 .icons a:nth-child(2) {
-    margin-left: 2%;
+    margin-left: 10%;
 }
 
 @media (max-width: 1024px) {
-    .icon:nth-child(2) {
+    .icon a:nth-child(2) {
         margin-left: 3%;
-    }
-}
-
-@media (max-width: 425px) {
-    .icons a:nth-child(2) {
-        margin-left: 10%;
     }
 }
 
