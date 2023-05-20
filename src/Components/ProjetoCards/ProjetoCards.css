@@ -79,9 +79,20 @@ h1 {
     text-align: center;
 }
 
+
 @media (min-width: 280px) {
     .projetos {
       width: 200px;
+    }
+
+    .botao:nth-child(2) {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 281px) {
+    .projetos {
+      width: 250px;
     }
 
     .botao:nth-child(2) {
