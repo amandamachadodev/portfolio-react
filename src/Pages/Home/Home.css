@@ -51,14 +51,14 @@ p {
 }
 
 @media (max-width: 1024px) {
-    .icons a:nth-child(2) {
+    .icon:nth-child(2) {
         margin-left: 3%;
     }
 }
 
 @media (max-width: 425px) {
     .icons a:nth-child(2) {
-        margin-left: 6%;
+        margin-left: 10%;
     }
 }
 
