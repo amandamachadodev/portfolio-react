@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import '../ProjetoCards/ProjetoCards.css';
 import starWars from '../../imagens/starwars.png';
+import Repositories from "./Repositories/Repositories";
 
 export function ProjetoCards() {
     const [projetos, setProjetos] = useState([]);
@@ -54,7 +55,8 @@ export function ProjetoCards() {
     return (
         <div className="Content">
             <h1>Projetos</h1>
-           { projetos.map(projeto => {
+            <Repositories/>
+           {/* { projetos.map(projeto => {
                     return (
                       <div className="projetos" key={projeto.id}>
                           <img src={projeto.imagem} alt="projeto star wars"/>
@@ -67,7 +69,7 @@ export function ProjetoCards() {
                           </div>
                       </div>
                     )
-                })}
+                })} */}
         </div>
     )
 }

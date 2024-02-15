@@ -42,12 +42,6 @@ p {
     margin-left: 2%;
 }
 
-@keyframes icones {
-    50% {
-      opacity: 0.5;
-    }
-  }
-
 @media (min-width: 1024px) {
     .icons {
       margin-top: 5%;

@@ -3,7 +3,7 @@ import { Galaxy } from '../../Components/Background/Galaxy.jsx';
 import "../Home/Home.css";
 import { Loader } from '../../Components/Loader/Loader.jsx';
 import { Header } from '../../Components/Header/Header.jsx';
-import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 function Home() {
     const [loader, setLoader] = useState(true);
@@ -46,7 +46,6 @@ function Home() {
                                 target.style.color="rgb(255, 254, 184)"}}
                         />
                         </a>
-                        {/* <FaEnvelope size={42}/> */}
                     </div>
                 </div>) } 
            {loader && < Loader />}

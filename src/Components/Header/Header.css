@@ -18,11 +18,6 @@ button {
     animation: mostraBotao 2s infinite;
 }
 
-@keyframes mostraBotao {
-    50% {
-        opacity: 0.5;
-    }
-}
 
 button:hover {
     font-size: medium;

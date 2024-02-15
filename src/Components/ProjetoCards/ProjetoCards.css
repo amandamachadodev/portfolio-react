@@ -17,8 +17,8 @@
     display: flex;
     top: 10%;
     color:rgb(255, 254, 184);
-    /* width: 101%; */
-    /* align-items: center; */
+    width: 100%;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -45,6 +45,7 @@ img {
     text-decoration: none;
     transition: 1s;
     min-width: 55px;
+    margin-top: 5%;
 }
 
 .botao:nth-child(2) {
@@ -104,7 +105,7 @@ h1 {
     .projetos {
       margin-top: 15%;
       width: 400px;
-      height: 450px;
+      height: 250px;
     }
 
     .Content {
